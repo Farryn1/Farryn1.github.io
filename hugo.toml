@@ -1,0 +1,77 @@
+baseURL = "https://farryn1.github.io/"
+title = "Fangyuan Shi"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Fangyuan Shi"
+description = "Fangyuan Shi — M.S. in Operations Research at Georgia Tech. Data-driven decision-making in operational systems."
+keywords = "Fangyuan Shi, operations research, optimization, data-driven decision making, Georgia Tech, machine learning, forecasting, time series"
+info = [
+  "M.S. in Operations Research, Georgia Tech",
+  "Data-driven decision-making in operational systems",
+]
+avatarURL = "images/avatar.jpg"
+dateFormat = "January 2006"
+since = 2026
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = ["css/custom.css"]
+customSCSS = []
+customJS = []
+customRemoteJS = []
+
+[taxonomies]
+tag = "tags"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 1
+url = "mailto:fshi46@gatech.edu"
+
+[[params.social]]
+name = "CV"
+icon = "fa-solid fa-file-lines fa-2x"
+weight = 2
+url = "/files/Fangyuan_Shi_CV.pdf"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 3
+url = "https://github.com/Farryn1/"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Research"
+weight = 2
+url = "research/"
+
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[menu.main]]
+name = "CV"
+weight = 4
+url = "files/Fangyuan_Shi_CV.pdf"

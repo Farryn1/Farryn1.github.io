@@ -1,0 +1,12 @@
+# Editors / OS
+.idea
+.claude/
+.DS_Store
+*.lock
+
+# Hugo build artifacts
+public/
+/resources/
+
+# Raw source material (projects live in their own GitHub repos)
+source/
